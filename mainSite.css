@@ -190,7 +190,7 @@ hr{
 	margin: 0;
 }
 
-#fav {
+.fav {
 	font-weight: bold;
 }
 
@@ -216,4 +216,18 @@ table a{
 table a:visited{
 	text-decoration: none;
 	color: black;
+}
+
+footer {
+	background-color: #02535C;
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+}
+
+footer a{
+	float: right;
+	color: white;
+	font-style: italic;
+	font-size: medium;
 }
